@@ -49,12 +49,12 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'https' do |ss|
-    ss.source_files = 'CustomPods/ffmpeg-kit-ios-custom/**/*.{h,m}'
+    ss.source_files = 'CustomPods/ffmpeg-kit-ios-custom/**/*'
     ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'https-lts' do |ss|
-    ss.source_files = 'CustomPods/ffmpeg-kit-ios-custom/**/*.{h,m}'
+    ss.source_files = 'CustomPods/ffmpeg-kit-ios-custom/**/*'
     ss.ios.deployment_target = '10'
   end
 
