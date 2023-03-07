@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
   s.static_framework    = true
 
   s.source              = { :path => '.' }
-  s.source_files        = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  ss.source_files = 'ffmpeg-kit-ios-custom/**/*.{h,m}'
 
   s.default_subspec     = 'https'
 
