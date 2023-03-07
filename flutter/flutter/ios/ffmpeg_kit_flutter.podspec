@@ -56,9 +56,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'https-lts' do |ss|
-    ss.source_files         = 'Classes/**/*'
-    ss.public_header_files  = 'Classes/**/*.h'
-    ss.dependency 'ffmpeg-kit-ios-https', "5.1.LTS"
+    ss.source_files = 'ffmpeg-kit-ios-custom/**/*.{h,m}'
     ss.ios.deployment_target = '10'
   end
 
